@@ -1,4 +1,4 @@
-import java.util.List;
+giimport java.util.List;
 import java.util.Map;
 
 public class Student {
@@ -50,6 +50,10 @@ public class Student {
 
     public void setBonusApplied(boolean bonusApplied) {
         this.bonusApplied = bonusApplied;
+    }
+
+    public double calculateStipend() {
+        return 0;
     }
 
     @Override
